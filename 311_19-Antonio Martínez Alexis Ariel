@@ -1,0 +1,45 @@
+¿Cómo se divide un disco duro?
+
+Sector de arranque: En él se encuentra información acerca del trabajo, de la estructura del volumen y sobre todo BOOTSTRAP-LOADER, mediante el cual se puede arrancar el PC desde DOS. A esta parte se le llama sector de arranque (BOOT).
+
+La tabla de asignación de ficheros (file allocation table) (FAT): Si el DOS quiere crear nuevos archivos, o ampliar archivos existentes, ha de ser que sectores del volumen correspondiente quedan libres. Cada entrada a esta tabla se corresponde con un número determinado de sectores que son adyacentes lógicamente en el volumen. El tamaño de las diferentes entradas de esta tabla en las primeras versiones del DOS era de 12 bits. En vista del problema que surgió al aparecer discos duros de capacidades más elevadas, se amplió el tamaño a 16 bits, permitiendo el direccionamiento de un máximo de 65.535 Clusters.
+
+ Una o más copias de la FAT: El DOS permite a un programa de formateo crear no solo una, sino varias copias idénticas de la FAT. Si el DOS encuentra uno de estos medios, cuida todas las copias de la FAT simultáneamente, así que guarda allí los nuevos clusters ocupados o liberados al crear o borrar archivos.  
+
+El directorio raíz: La cantidad máxima de entradas en el directorio raíz se limita por su tamaño, que se fija en el sector de arranque. Ya que el directorio raíz representa una estructura de datos estática, que no crece si se guardan más y más archivos o subdirectorios.
+
+La zona de datos: Es la parte del disco duro en la que se almacena los datos de un archivo. Esta zona depende en casi su totalidad de las interrelaciones entre las estructuras de datos que forman el sistema de archivos del DOS, y el camino que se lleva desde la FAT hacia los diferentes sectores de un archivo.   
+
+Tipos de discos duros y velocidades de transferencia.
+
+SAS: Estos discos duros son muy solicitados para el empleo en servidores, es posible conectarlos hasta con 6 o 7 metros de distancia y de ahí en adelante cubrir hasta 24 computadoras.
+SCSI: Estos discos ´poseen una interfaz muy pequeña y exige de un controlador para que opere.
+IDE, ATA Y PATA: Cada clase de disco duro representa o quiere decir: IDE es la abreviatura de Componente Electrónico Avanzado de Contacto. PATA es la abreviatura de Tecnología Paralela Avanzada. 
+SATA: Esta sigla significa Tecnología Avanzada de Contacto. Y se distingue por funcionar con una velocidad cercana a los 150 megabytes por segundo.
+SATA 2:   Se diferencia en comparación con el SATA es que realiza sus actividades a 300 megabytes por segundo, lo que representa que su tiempo de respuesta es muy bueno.
+SATA 3: Alcanza una velocidad de hasta 600 megabytes de transferencia por su rendimiento es el más solicitado. 
+
+
+Tipos de computadoras.
+
+Portátiles: Se asemejan un poco a los cuadernos. Son modelos con una pantalla plana, teclado, memoria, procesador y dispositivo señalado. Sus funciones son las mismas que las de un computador de escritorio.
+Estaciones de trabajo: Computadoras ideales para trabajos de alta exigencia, tienen monitores muy grandes, pueden presentar gráficos en alta calidad, razón por la que disponen de un procesador bastante potente para operar con datos complejos. Al igual que discos duros que almacenan grandes cantidades de información.
+Computadora de escritorio: Diseñada para realizar tareas cotidianas y brindar una buena potencia para ello y un precio bajo.
+Netbooks: Son más portables que un portátil o laptop, pero al ser tan pequeñas no soy muy potentes.
+Servidores: Se emplean para almacenar sitios web y garantizar una conexión constante a los mismos vía internet.
+Mainframes: Se utilizan para negocios en un entorno local para negocios de un entorno local y ocupan mucho espacio, hasta una habitación.
+Minicomputadoras: Semejantes a un servidor, pero con menos potencia.
+Supercomputadoras: Son muy costosas y de alta complejidad. Se emplean para aplicaciones muy especializadas.
+
+¿En que se divide el procesador de una computadora?
+
+Zocalo: Aquí es donde se incrusta el procesador para dar vida y conectarse con el equipo para luego ejecutar los órdenes.
+CPU: Central Processing Unit que significa unidad de proceso central. Es el cerebro de la computadora, se le llama así al procesador central del ordenador. Es la parte más relevante y trascendental de todo el sistema del computador.
+Microprocesador: Se ubica dentro del procesador central y se encarga de captar la información que llega por medio del teclado y el mouse.
+Unidad de control: Es la responsable vigilar que las operaciones se ejecuten en secuencias y que se estén llevando a cabo de la mejor manera.
+Encapsulado: Es una lámina de silicio que rodea el procesador, el cual lo cubre para garantizar una protección y alargar su vida en cuanto al deterioro.
+Chipset: Es un conjunto de chips responsables de controlar funciones determinadas de equipo.
+Registros: Es una memoria ubicada en el procesador que guardan las informaciones de forma temporal mientras se ejecutan las órdenes del procesador. 
+Unidad aritmética lógica: Su acrónimo es ALU por sus siglas en ingles. Como su nombre lo indica es la responsable de las operaciones aritméticas y lógicas del procesador.
+Tarjeta de video: La función de la tarjeta de video es producir gráficos partiendo de los datos recibidos desde el procesador.
+Memoria caché: Es aquella que almacena los programas y informaciones más utilizadas. Está ubicada dentro de la tarjeta madre o mother board, por lo tanto se encuentran en el interior del CPU
